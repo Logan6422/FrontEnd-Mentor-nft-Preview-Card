@@ -114,14 +114,14 @@ h4{
   min-height: 230px;
   margin-bottom: 5px;
   background-position: center;
-  background-image:url('/home/logan/workspace/nft/nft-preview-card-component-main/images/image-equilibrium.jpg');
+  background-image:url('images/image-equilibrium.jpg');
   background-size: 100%;
   cursor: pointer;
 
 }
 
 .image-changer:hover{
-  background: url('/home/logan/workspace/nft/nft-preview-card-component-main/images/icon-view.svg') no-repeat;
+  background: url('images/icon-view.svg') no-repeat;
   min-height: 230px;
   min-width: 220px;
   background-size: 50%;
