@@ -1,0 +1,141 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;700;800&display=swap');
+
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+
+a{
+  color: hsl(228, 45%, 44%);
+}
+
+a:hover{
+  color: cyan;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+ max-width: 360px;
+ margin: auto;
+}
+
+p{
+  color:hsl(215, 51%, 70%);
+  font-size: 13px;
+}
+
+.card{
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 18px;
+  height: 410px;
+  max-width: 230px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+
+}
+.card img{
+  border-radius: 18px;
+  border-width: 5px;
+}
+
+
+#avatar{
+  width: 10%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  margin-top: 20px;
+}
+
+.line{
+  background-color: hsl(215, 32%, 27%);
+  border-style: solid;
+  border-color: hsl(215, 32%, 27%);
+  border-width: 1px;
+  margin-top:50px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0px;
+}
+
+body{
+ background-color: hsl(217, 54%, 11%);
+ min-height: 100vh;
+ display: flex;
+ align-items:center;
+ text-align: center;
+ font-family: 'Outfit', sans-serif;
+ font-size: 18px;
+}
+
+h4{
+  color: white;
+  padding: 5px;
+}
+#taxt{
+  color: hsl(178, 100%, 50%);
+  font-size: 13px;
+  text-align: left;
+  float: left;
+  margin-top: 15px;
+}
+#text{
+  color: hsl(215, 51%, 70%);
+  text-align: right;
+  float: right;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
+.et{
+  width: 8px;
+  margin-top: 15px;
+}
+.cl{
+  width: 14px;
+  margin-top: 17px;
+}
+
+#pad{
+  color:hsl(215, 51%, 70%);
+  font-size: 13px;
+  padding: 25px;
+}
+
+.image-changer{
+  min-width: 200px;
+  min-height: 230px;
+  margin-bottom: 5px;
+  background-position: center;
+  background-image:url('/home/logan/workspace/nft/nft-preview-card-component-main/images/image-equilibrium.jpg');
+  background-size: 100%;
+  cursor: pointer;
+
+}
+
+.image-changer:hover{
+  background: url('/home/logan/workspace/nft/nft-preview-card-component-main/images/icon-view.svg') no-repeat;
+  min-height: 230px;
+  min-width: 220px;
+  background-size: 50%;
+  background-color: cyan;
+  margin-bottom: 5px;
+  background-position: center;
+  cursor: pointer;
+}
+.color-changer{
+
+}
+
+.color-changer:hover{
+   color: cyan;
+   cursor: pointer;
+}
+
